@@ -110,11 +110,10 @@ private:
     }
 
     Node* selectColumn() {
-        return header->right; // Simple heuristic: choose the first column
+        return header->right; 
     }
 };
 
-// Define the Pentomino shapes
 vector<vector<vector<int>>> pentominoes = {
     // X-Pentomino
     {{0, 1, 2, 3, 4}},
